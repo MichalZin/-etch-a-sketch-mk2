@@ -1,0 +1,24 @@
+.title {
+    
+}
+
+.input_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputNum {
+    width: 500px;
+    padding: 5px;
+    margin: 5px
+}
+
+.canvas {
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height: 100vh;
+    justify-content: space-arond;
+}
