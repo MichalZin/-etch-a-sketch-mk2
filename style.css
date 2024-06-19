@@ -1,5 +1,7 @@
-.title {
-    
+
+
+h1 {
+    color: blue;
 }
 
 .input_data {
@@ -18,7 +20,22 @@
 .canvas {
     display: flex;
     flex-direction: row;
-    width:100vw;
-    height: 100vh;
-    justify-content: space-arond;
+    width:700px;
+    height: 700px;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.resButton {
+    display: flex;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.singleTile {
+    background-color: beige;
+}
+.singleTile:hover {
+    background-color: aquamarine
 }
